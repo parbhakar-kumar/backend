@@ -1,0 +1,19 @@
+{
+  "name": "backend_sever",
+  "version": "1.0.0",
+  "description": "for fun",
+  "main": "sever.js",
+  "type":"module",
+  "scripts": {
+    "dev": "node  sever.js"
+  },
+  "keywords": [
+    "fun",
+    "backend"
+  ],
+  "author": "p.k",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

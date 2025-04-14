@@ -12,6 +12,6 @@ app.get('/twitwe',(req,res)=>{
 app.get('/youtub',(req,res)=>{
   res.send('youtub hello')
 } )
-app.listen(port, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
