@@ -10,7 +10,7 @@ function App() {
 
 
   useEffect(()=>{
-    axios.get(' htttp://localhost:3000/jokes ')
+    axios.get('/api/jokes ')
     .then((response)=>{
       setJokes(response.data)
     })
